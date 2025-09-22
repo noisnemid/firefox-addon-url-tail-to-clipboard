@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>扩展设置</title>
+</head>
+<body>
+  <h2>Options/URL Tail to Clipboard 设置</h2>
+  <label><input type="checkbox" id="purl-enable"> 复制时追加来源URL</label><br>
+  <label><input type="checkbox" id="purl-whitelist-enable"> 仅在白名单域名生效</label>
+  <input type="text" id="purl-whitelist" placeholder="域名,用逗号分隔"><br>
+  <label><input type="checkbox" id="src-enable"> Ctrl+Alt+C功能</label><br>
+  <label><input type="checkbox" id="src-whitelist-enable"> 仅在白名单域名生效</label>
+  <input type="text" id="src-whitelist" placeholder="域名,用逗号分隔"><br>
+  <button id="save">保存</button>
+  <span id="status"></span>
+  <script src="options.js"></script>
+</body>
+</html>
